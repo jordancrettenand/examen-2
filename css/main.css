@@ -67,6 +67,39 @@ main {
 }
 /* css main */
 
+h2 {
+  font-size: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  padding-top: 236px;
+  padding-bottom: 119px;
+}
+h3 {
+  font-size: 99px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+  padding-top: 98px;
+  padding-bottom: 47px;
+}
+
+h4 {
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  padding-top: 74px;
+  padding-bottom: 56px;
+}
+p {
+  font-size: 38px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+  padding-bottom: 151px;
+}
+
+main img {
+  padding: 15px;
+}
+
 /* css footer */
 footer {
   background: lightsalmon;
@@ -74,33 +107,11 @@ footer {
 /* css footer */
 
 /* code boutton */
-.styled {
-  border: 0;
-  line-height: 2.5;
-  padding: 0 20px;
-  font-size: 1rem;
-  text-align: center;
+
+button {
+  background: #000;
   color: #fff;
-  text-shadow: 1px 1px 1px #000;
-  border-radius: 10px;
-  background-color: rgba(220, 0, 0, 1);
-  background-image: linear-gradient(
-    to top left,
-    rgba(0, 0, 0, 0.2),
-    rgba(0, 0, 0, 0.2) 30%,
-    rgba(0, 0, 0, 0)
-  );
-  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
-    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
-}
-
-.styled:hover {
-  background-color: rgba(255, 0, 0, 1);
-}
-
-.styled:active {
-  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
-    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+  padding: 20px;
 }
 
 /* code boutton */
