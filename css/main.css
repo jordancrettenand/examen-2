@@ -31,13 +31,47 @@ body {
 a {
   color: inherit;
 }
-
 img,
 video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: middle;
 }
+/* ********************************** */
+
+img {
+  display: block;
+  margin: auto;
+}
+
+h2,
+h3,
+h4,
+p {
+  text-align: center;
+}
+
+/* css header */
+header {
+  background: lightgreen;
+  background-image: url("../img/resto.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+/* css header */
+
+/* css main */
+main {
+  background: lightblue;
+}
+/* css main */
+
+/* css footer */
+footer {
+  background: lightsalmon;
+}
+/* css footer */
 
 /* code boutton */
 .styled {
@@ -73,7 +107,7 @@ video {
 
 /* bootstrap ->  */
 
-.row + .row {
+/* .row + .row {
   margin-top: 16px;
 }
 
@@ -86,5 +120,5 @@ video {
   background-color: rgba(255, 0, 0, 0.15);
 
   border: 1px solid rgba(102, 0, 255, 0.2);
-}
+} */
 /* bootstrap ->  */
