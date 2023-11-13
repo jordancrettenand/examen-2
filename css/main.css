@@ -40,6 +40,12 @@ video {
   flex-direction: column;
 }
 
+.section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .element {
   text-align: left;
   padding: 30px;
@@ -65,6 +71,24 @@ header {
   background-image: url("../img/resto.png");
   background-repeat: no-repeat;
   background-size: 100%;
+  aspect-ratio: 1.5;
+}
+
+.menu {
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  padding: 12px;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+header img {
+  margin-top: 200px;
 }
 
 /* css header */
