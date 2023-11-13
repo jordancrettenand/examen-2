@@ -2,9 +2,6 @@
 // css variables
 // ==================================== */
 
-:root {
-}
-
 /* ====================================
 // reset rules
 // ==================================== */
@@ -38,6 +35,17 @@ video {
   vertical-align: middle;
 }
 /* ********************************** */
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.element {
+  text-align: left;
+  padding: 30px;
+  background: blue;
+  color: white;
+}
 
 img {
   display: block;
@@ -69,14 +77,14 @@ main {
 
 h2 {
   font-size: 100px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Itim", Arial, Helvetica;
   color: #fff;
   padding-top: 236px;
   padding-bottom: 119px;
 }
 h3 {
   font-size: 99px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Itim", Arial, Helvetica;
   color: #000;
   padding-top: 98px;
   padding-bottom: 47px;
@@ -84,16 +92,29 @@ h3 {
 
 h4 {
   font-size: 60px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Itim", Arial, Helvetica;
   color: #fff;
   padding-top: 74px;
   padding-bottom: 56px;
 }
-p {
+
+.blc-intro {
+  background: orange;
+  border-radius: 15px;
+  padding: 34px 75px 34px 75px;
+  font-family: "Itim", Arial, Helvetica;
+}
+
+p main {
   font-size: 38px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Itim", Arial, Helvetica;
   color: #000;
   padding-bottom: 151px;
+}
+
+p,
+nav {
+  font-family: "Itim", Arial, Helvetica;
 }
 
 main img {
@@ -107,14 +128,39 @@ footer {
 /* css footer */
 
 /* code boutton */
-
 button {
-  background: #000;
-  color: #fff;
+  display: inline-block;
+  background-color: #7b38d8;
+  border-radius: 10px;
+  border: none #cccccc;
+  color: #eeeeee;
+  text-align: center;
+  font-size: 28px;
   padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+button:hover {
+  background-color: #f7c2f9;
 }
 
 /* code boutton */
+
+.réseaux {
+  margin-top: 90px;
+  margin-bottom: 40px;
+}
 
 /* bootstrap ->  */
 
