@@ -17,13 +17,15 @@
     <header>
       <div class="container">
         <div class="row">
-          <div class="col-6 menu box">
-            <nav class="box">Accueil</nav>
-            <nav class="box">Carte</nav>
-            <nav class="box">Evenement</nav>
-            <nav class="box">Contact</nav>
+          <div id="accueil" class="col-6 menu box">
+            <a href="#accueil" class="box">Accueil</a>
+            <a href="#carte" class="box">Carte</a>
+            <a href="#evenement" class="box">Evenement</a>
+            <a href="#contact" class="box">Contact</a>
           </div>
-          <div class="col-6 menu box"><nav class="box">FR/EN</nav></div>
+          <div class="col-6 menu box">
+            <nav class="box">FR/EN</nav>
+          </div>
         </div>
       </div>
 
@@ -39,8 +41,8 @@
       <div class="container">
         <div class="row">
           <div class="col-10 offset-1 blc-intro">
-            <p>C’est quoi ?</p>
-            <p blc-intro>
+            <p class="sur-texte">C’est quoi ?</p>
+            <p>
               Kolorfood est un restaurant lausannois gourmet qui vous emmène à
               la découverte des saveurs et des couleurs à travers un plat.
             </p>
@@ -50,7 +52,7 @@
 
       <div class="container">
         <div class="row">
-          <div class="col-10 offset-1"><h2>LA CARTE</h2></div>
+          <div id="carte" class="col-10 offset-1"><h2>LA CARTE</h2></div>
           <div class="col-10 offset-1">
             <div class="row">
               <div class="col-12 col-md-4">
@@ -104,7 +106,9 @@
     <main class="bas">
       <div class="container">
         <div class="row">
-          <div class="col-10 offset-1"><h3>Prochain Événements</h3></div>
+          <div id="evenement" class="col-10 offset-1">
+            <h3>Prochain Événements</h3>
+          </div>
           <div class="col-10 offset-1">
             <p>
               On vous propose de mettre de la couleur dans vos vies avec des
@@ -135,17 +139,26 @@
     <footer>
       <div class="container">
         <div class="row">
-          <div class="col-4 offset-4"><h4>Contact</h4></div>
+          <div id="contact" class="col-4 offset-4"><h4>Contact</h4></div>
 
           <div class="col-2 col-sm-3 section">
             <p>Téléphone</p>
             <p>Mail</p>
             <p>Adresse</p>
             <p>Horaires</p>
-            <p>Téléphone</p>
-            <p>Mail</p>
-            <p>Adresse</p>
-            <p>Horaires</p>
+          </div>
+          <div class="col-2 col-sm-3 section">
+            <p class="section">Téléphone</p>
+            <p class="section">Mail</p>
+            <p class="section">Adresse</p>
+            <p class="section">Horaires</p>
+          </div>
+
+          <div class="col-2 col-sm-3 section">
+            <p class="section">026 260 72 42</p>
+            <p class="section">info@thekolorfood.ch</p>
+            <p class="section">Rue Haldimand 2 1003 Lausanne</p>
+            <p class="section">Du Mardi au Samedi De 11h à 14h - 17h à 23h</p>
           </div>
 
           <div class="col-12 col-sm-6"><img src="img/maps.png" alt="" /></div>
