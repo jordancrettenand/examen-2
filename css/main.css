@@ -76,6 +76,13 @@ header {
   aspect-ratio: 1.5;
 }
 
+.top-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
 .menu {
   background-color: #b14920;
   display: flex;
@@ -91,7 +98,6 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  /* position: fixed; */
 }
 
 header img {
@@ -240,3 +246,9 @@ button:hover {
   border: 1px solid rgba(102, 0, 255, 0.2);
 } */
 /* bootstrap ->  */
+
+.info {
+  font-size: 24px;
+  text-align: left;
+  margin: 26px;
+}
