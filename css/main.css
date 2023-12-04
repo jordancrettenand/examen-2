@@ -27,7 +27,9 @@ body {
 
 a {
   color: inherit;
+  text-decoration: none;
 }
+
 img,
 video {
   max-inline-size: 100%;
@@ -97,7 +99,13 @@ header {
   font-size: 30px;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
+}
+
+@media (max-width: 991px) {
+  .box {
+    font-size: 16px;
+  }
 }
 
 header img {
@@ -148,7 +156,7 @@ h2 {
 }
 @media (max-width: 991px) {
   h2 {
-    font-size: 10px;
+    font-size: 30px;
   }
 }
 h3 {
@@ -165,6 +173,7 @@ h3 {
     font-size: 50px;
   }
 }
+
 /* police responsive  */
 
 h4 {
@@ -175,6 +184,11 @@ h4 {
   padding-bottom: 56px;
 }
 
+p {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
 main p {
   font-size: 40px;
   font-family: "Itim", Arial, Helvetica;
@@ -182,11 +196,20 @@ main p {
   /* padding-bottom: 151px; */
 }
 
+@media (max-width: 991px) {
+  main p {
+    font-size: 20px;
+  }
+}
+
 p,
 nav {
   font-family: "Itim", Arial, Helvetica;
 }
 
+.intro {
+  margin: 0px;
+}
 main img {
   padding: 15px;
 }
@@ -232,9 +255,13 @@ button:hover {
 .btt {
   display: flex;
   justify-content: center;
-  /* margin: 60px; */
+  margin-top: 120px;
 }
 
+.flch {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
 /* code boutton */
 
 .réseaux {
@@ -251,11 +278,11 @@ button:hover {
 .row > .col,
 .row > [class^="col-"] {
   padding-top: 12px;
-
+  
   padding-bottom: 12px;
-
+  
   background-color: rgba(255, 0, 0, 0.15);
-
+  
   border: 1px solid rgba(102, 0, 255, 0.2);
 } */
 /* bootstrap ->  */
