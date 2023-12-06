@@ -83,13 +83,14 @@ header {
   top: 0;
   left: 0;
   right: 0;
+  padding: 20px;
+  background-color: #b14920;
 }
 
 .menu {
-  background-color: #b14920;
   display: flex;
   flex-direction: row;
-  padding: 12px;
+
   color: #fff;
 }
 
@@ -106,6 +107,11 @@ header {
   .box {
     font-size: 16px;
   }
+}
+
+.direction {
+  display: flex;
+  justify-content: right;
 }
 
 header img {
@@ -141,6 +147,7 @@ header img {
   font-family: "Itim", Arial, Helvetica;
   height: 272px;
   color: #fff;
+  margin-top: -136px;
 }
 
 .sur-texte {
@@ -267,6 +274,12 @@ button:hover {
 .réseaux {
   margin-top: 90px;
   margin-bottom: 40px;
+}
+
+@media (max-width: 600px) {
+  .réseaux {
+    order: 1;
+  }
 }
 
 /* bootstrap ->  */
